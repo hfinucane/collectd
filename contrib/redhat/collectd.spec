@@ -829,6 +829,7 @@ Collectd utilities
 %setup -q
 
 %build
+./build.sh
 %if %{with_aggregation}
 %define _with_aggregation --enable-aggregation
 %else
